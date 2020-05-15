@@ -1,0 +1,32 @@
+PODS:
+  - Alamofire (4.9.1)
+  - Cache (5.2.0)
+  - SwiftyJSON (5.0.0)
+
+DEPENDENCIES:
+  - Alamofire (= 4.9.1)
+  - Cache (from `https://github.com/thepeaklab/Cache.git`)
+  - SwiftyJSON
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - SwiftyJSON
+
+EXTERNAL SOURCES:
+  Cache:
+    :git: https://github.com/thepeaklab/Cache.git
+
+CHECKOUT OPTIONS:
+  Cache:
+    :commit: 51a19bc37dccc3e092c680245152ed69480c49b3
+    :git: https://github.com/thepeaklab/Cache.git
+
+SPEC CHECKSUMS:
+  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  Cache: 807c5d86d01a177f06ede9865add3aea269bbfd4
+  SwiftyJSON: 36413e04c44ee145039d332b4f4e2d3e8d6c4db7
+
+PODFILE CHECKSUM: 4f3d9c754a6f40f57723d45238252013695bcb44
+
+COCOAPODS: 1.9.1

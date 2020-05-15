@@ -1,0 +1,11 @@
+framework module IOSBoostSDK {
+  umbrella header "IOSBoostSDK.h"
+
+  export *
+  module * { export * }
+}
+
+module IOSBoostSDK.Swift {
+    header "IOSBoostSDK-Swift.h"
+    requires objc
+}
